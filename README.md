@@ -2,17 +2,26 @@
 
 list directory contents in a tree structure
 
+    testDirectory
+    ├──level1
+    │  ├──level11
+    │  │  ├──a.js
+    │  │  └──e.js
+    │  └──level12
+    │     ├──b.js
+    │     └──f.js
+    └──level2
+       ├──c.js
+       └──d.js
+
+
 ## Install
 
-- git clone git://git@github.com/huang-x-h/lstree.git
-- cd lstree
-- npm install && npm link
-- ls -h
+- `npm install -g lstree`
+- `lstree -h`
 
 ## Usage
 
-- ls
-
-- ls -o output.txt
-
-- ls -d folder -o output.txt
+- `ls`
+- `ls -o <outfile-path>`
+- `ls -d <directory-path> -o <outfile-path>`

@@ -1,11 +1,13 @@
 #! /usr/bin/env node
 
 var program = require('commander');
-var ls = require('./lib/ls');
+var lstree = require('./lib/lstree');
 
 program
-  .version('0.0.1')
+  .version('1.0.0')
   .option('-o, --output', 'save output to file path')
-  .option('-d, --directory', 'list directory path');
+  .option('-d, --directory <directory>', 'list directory path')
+  .parse(process.argv);
 
-ls(program.directory, program.output);
+console.log(program.directory)
+lstree(program.directory, program.output);
