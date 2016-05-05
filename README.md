@@ -25,3 +25,7 @@ list directory contents in a tree structure
 - `ls`
 - `ls -o <outfile-path>`
 - `ls -d <directory-path> -o <outfile-path>`
+
+## TODO
+
+when directory is too big, the process will down
