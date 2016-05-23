@@ -1,6 +1,6 @@
 {
   "name": "lstree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "list directory contents in a tree structure",
   "main": "./lib/lstree.js",
   "scripts": {
